@@ -1,4 +1,19 @@
 #!/usr/bin/sudo /usr/bin/python3
+# ## ###############################################
+#
+# disableInputs.py
+# 
+#
+# Autor: César Augusto Martínez Franco
+#        Lisset Noriega Domínguez
+#        Rodolfo Quiroz Hernandez 
+#        Jesús Arturo Vázquez Zaragoza
+# License: MIT
+#
+# ## ###############################################
+"""Disable TouchPad
+"""
+
 import os
 from time import sleep
 

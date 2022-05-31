@@ -1,5 +1,22 @@
+# ## ###############################################
+#
+# copyRoms.py
+# 
+#
+# Autor: César Augusto Martínez Franco
+#        Lisset Noriega Domínguez
+#        Rodolfo Quiroz Hernandez 
+#        Jesús Arturo Vázquez Zaragoza
+# License: MIT
+#
+# ## ###############################################
 import os
 import shutil
+
+    
+"""Copía roms
+
+"""
 
 def copyFiles(sourceDir, destDir):
     fileExt = ".gbc"
