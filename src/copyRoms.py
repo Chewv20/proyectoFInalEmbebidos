@@ -1,6 +1,34 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# ## ###############################################
+# copyRoms.py
+# copy roms
+#
+# Autor: César Augusto Martínez Franco
+#        Lisset Noriega Domínguez
+#
+#        Jesús Arturo Vázquez Zaragoza
+#
+# License: MIT
+#
+# ## ###############################################
+
 import os
 import shutil
+"""Copía roms desde una memoria usb
 
+Parameters
+
+sourceDir : String
+    Dirección desde donde se copia los roms
+    
+destDir : String
+    Dirección de destino de los roms
+    
+return
+    void
+
+"""
 def copyFiles(sourceDir, destDir):
     fileExt = ".gbc"
     ROMS = []
